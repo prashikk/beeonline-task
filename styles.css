@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*Navbar*/
+
+.login{
+    text-decoration: none;
+    border: none;
+    color: #96BB7C;
+    margin-right: 20px;
+    background: transparent;
+}
+
+/*MainPage*/
+.MainPage{
+    background-color: #FFF2F3;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    padding: 10%;
+}
+
+.leftH6{
+    color: #96BB7C;
+}
+.leftP{
+    color: grey;
+}
+.JoinUsBtn2{
+    background-color: #96BB7C;
+    border: none;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+
+}
+
+.right{
+    display: inline-block;
+    width: 49%;
+    height: 90%;
+}
+.red-line {
+    border: none;           
+    border-top: 6px solid red; 
+    width: 100px;         
+    margin: 10px;         
+}
+.red-line-small{
+    border: none;           
+    border-top: 2px solid red; 
+    width: 60px;         
+    margin: 10px;  
+}
+.secondPage{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.right1{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+.hover-move {
+    display: inline-block;
+    color: #96BB7C;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-move:hover {
+    transform: translateX(30px);
+    color: #78A35E;
+}
+.card{
+    display: inline-block;
+    border: none;
+    width: 30%;
+    height: 60%;
+    padding: 30px;
+    margin: 20px;
+}
+
+.cardImg{
+    height: 76px;
+    width: 70px;
+
+}
+
+.top{
+    position: relative;
+    left: 14%;
+    margin: 70px;
+}
+
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profileCards {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 15%;
+    height: 350px;
+    text-align: center;
+}
+
+.profileCards img {
+    max-width: 100%;
+    border-radius: inherit;
+}
+
+.profileCards h6 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profileCards p {
+    margin: 0;
+    color: #666;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.container{
+    width: 100%;
+    background-color: #fceeee; 
+    padding: 50px;
+}
+
+.newsletter {
+    text-align: center;
+    margin-top: 100px;
+}
+.newsletter h2 {
+    font-weight: bold;
+    color: #1c1c1e;
+}
+.newsletter p {
+    color: #6c757d;
+}
+.newsletter input[type="email"] {
+    width: 50%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+.newsletter button {
+    background-color: #a2cd8a; 
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 50px;
+}
+.footer-columns {
+    color: #1c1c1e;
+    font-size: 14px;
+}
+.footer-columns h6 {
+    font-weight: bold;
+    color: #1c1c1e; 
+}
+.footer-columns ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-columns ul li {
+    margin-bottom: 10px;
+}
+.footer-columns ul li a {
+    text-decoration: none;
+    color: #6c757d;
+}
+.footer-columns ul li a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    font-size: 18px;
+    color: #a2cd8a;
+    margin-right: 15px;
+}
+.social-icons:hover {
+    color: #77b36b;
+}
+.footer-bottom {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+}
